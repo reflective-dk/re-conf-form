@@ -1,0 +1,38 @@
+{
+  "name": "re-conf-form",
+  "version": "1.0.0",
+  "description": "Configuration objects for FORM",
+  "main": "index.js",
+  "scripts": {
+    "create-object": "create-object",
+    "list-integrations": "list-integrations",
+    "build": "build-objects",
+    "clean": "rm -Rf ./build",
+    "predeploy": "npm run upload",
+    "deploy": "re add -j build/objects.json",
+    "postdeploy": "npm run validate",
+    "upload": "upload-data",
+    "validate": "validate-objects",
+    "test": "mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/reflective-dk/re-conf-form.git"
+  },
+  "keywords": [
+    "reflective",
+    "configuration",
+    "klassifikation",
+    "form"
+  ],
+  "author": "Reflective Code <code@reflective.dk>",
+  "license": "UNLICENSED",
+  "private": true,
+  "dependencies": {
+    "re-models": "git+ssh://git@github.com/reflective-dk/re-models.git",
+    "re-conf-util": "git+ssh://git@github.com/reflective-dk/re-conf-util.git"
+  },
+  "devDependencies": {
+    "re-core-cli": "git+ssh://git@github.com:reflective-dk/re-core-cli.git"
+  }
+}
