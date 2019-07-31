@@ -1,0 +1,29 @@
+---
+id: 00d6c45c-4d7d-4f2c-8d84-8854c06a977b
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          model: { id: 190620dc-367f-4ba6-b5d8-bd88cf18d313, name: Model }
+          class: { id: 12b4049a-fb65-4429-a9d7-c91d88a58ac9, name: Class }
+          extends: { id: 2da6e709-3f63-47d9-a197-bda06fb86936, name: Entity }
+          name: FORM Element
+          attributes:
+            elementnr:
+              dataType: string
+            beskrivelse:
+              dataType: string
+            versionId:
+              dataType: string
+            oprettetDato:
+              dataType: dateTime
+            rettetDato:
+              dataType: dateTime
+            udgaaetDato:
+              dataType: dateTime
+          collections:
+            soegeordOrden:
+              dataType: string
+            soegeordTekst:
+              dataType: string
+...

@@ -1,0 +1,39 @@
+---
+id: e63b2c99-aee6-4446-a9b1-088f0f8ba421
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          model: { id: 190620dc-367f-4ba6-b5d8-bd88cf18d313, name: Model }
+          class: { id: 12b4049a-fb65-4429-a9d7-c91d88a58ac9, name: Class }
+          extends: { id: 00d6c45c-4d7d-4f2c-8d84-8854c06a977b, FORM Element }
+          name: Opgaveområde
+          collections:
+            domaenebestyrelseNavnKode:
+              dataType:
+                type: json
+                schema:
+                  type: string
+                  enum:
+                    - Bygninger boliger og forsyning
+                    - Social og omsorg
+                    - Erhverv
+                    - Sundhed
+            domaenebestyrelseReference:
+              dataType: string
+            finanslovParagrafTekst:
+              dataType: string
+            finanslovReference:
+              dataType: string
+            kleElementTekst:
+              dataType: string
+          singleRelations:
+            hovedomraade:
+              id: c24e0063-7a38-4d44-b754-7d9c60da3418
+              name: Hovedområde
+          manyRelations:
+            kleElement:
+              dataType:
+                id: 5ea08fe4-35c6-434f-a15a-a84eb766ca71
+                name: KLE Element
+...
