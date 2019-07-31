@@ -1,0 +1,27 @@
+---
+id: d1695479-a434-4fbf-a76c-0727815fa70c
+registrations:
+  - validity:
+      - input:
+          class: { id: a07908c1-883f-41e6-9beb-02981f48b067, name: Hierarchy }
+          name: FORM
+          owner: { id: ecbb21c5-bf5f-466c-9c67-01a91ad36530, name: FORM }
+          rootQuery:
+            query:
+              relatesTo:
+                class: df8e1f7e-af16-4f4b-a262-fdbd22232ff7
+          pathElements:
+            0:
+              parentType: { id: df8e1f7e-af16-4f4b-a262-fdbd22232ff7, name: FORM Serviceområde }
+              childType: { id: c24e0063-7a38-4d44-b754-7d9c60da3418, name: FORM Hovedområde }
+              relation: serviceomraade
+            1:
+              parentType: { id: c24e0063-7a38-4d44-b754-7d9c60da3418, name: FORM Hovedområde }
+              childType: { id: e63b2c99-aee6-4446-a9b1-088f0f8ba421, name: FORM Opgaveomraade }
+              relation: hovedomraade
+            2:
+              parentType: { id: e63b2c99-aee6-4446-a9b1-088f0f8ba421, name: FORM Opgaveomraade }
+              childType: { id: a0296ea0-22da-4dd4-be07-290292cb714d, name: FORM Opgave }
+              relation: opgaveomraade
+        from: 1987-01-01T00:00:00.000Z
+...

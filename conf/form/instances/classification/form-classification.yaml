@@ -1,0 +1,11 @@
+---
+id: ecbb21c5-bf5f-466c-9c67-01a91ad36530
+registrations:
+  - validity:
+      - input:
+          class: { id: 4b9eae81-6872-442c-8662-4c23f112df86, name: Classification }
+          name: FORM
+          description: FORM, klassifikation over det offentliges opgaver 
+          releaseDate: 2019-06-28T00:00:00.000Z
+        from: 1987-01-01T00:00:00.000Z
+...
