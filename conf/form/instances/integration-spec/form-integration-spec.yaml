@@ -42,8 +42,5 @@ registrations:
             opgave:
               id: fcde29d5-650a-4724-8c65-2ab9dd0de505
               name: Object -> FORM Opgave
-            myndighed:
-              id: 9a0a0fd8-111d-4d20-add1-824a1b7c24b4
-              name: Object -> Unit (Myndighed)
         from: 2018-01-01T00:00:00.000Z
 ...
