@@ -1,0 +1,9 @@
+---
+id: 9a0a0fd8-111d-4d20-add1-824a1b7c24b4
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: efefe41d-805b-478f-8e4d-841085cb7dfa, name: Type Map }
+          name: Object -> Unit (Myndighed)
+...
