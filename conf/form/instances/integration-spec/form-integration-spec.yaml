@@ -1,0 +1,46 @@
+---
+id: d1872725-0d6b-4451-8b55-97cccda67200
+registrations:
+  - validity:
+      - input:
+          class: { id: 0b436737-7dbe-443d-9d73-d9240ce4b17e, name: Integration Spec }
+          name: FORM Integration Spec
+          tenant: { id: 31b3ef73-dfa2-43dd-b76e-d49fe74f6bd5, name: FORM }
+          system: { id: ab3cca60-4d01-4d8f-9b41-9a88a9deb42d, name: FORM }
+          stagers:
+            serviceomraade:
+              id: efc42591-4628-4caf-a6ec-115eb45be53f
+              name: FORM Serviceområde Stager
+            hovedomraade:
+              id: f4699e6f-130d-4803-943b-96ab51b14cb3
+              name: FORM Hovedområde Stager
+            opgaveomraade:
+              id: c0352abd-220b-4a5b-943f-b528911e8480
+              name: FORM Opgaveområde Stager
+            opgave:
+              id: ed14f826-d02b-4c1a-8d37-317921bd3965
+              name: FORM Opgave Stager
+          incorporation:
+            serviceomraade:
+              id: 2a2bd221-f4ca-4063-8f9a-9b82ad88fba5
+              name: Object -> FORM Serviceområde
+            serviceomraaderelation:
+              id: c5dba13a-9777-47d5-a87c-9252ed70a0d3
+              name: Object -> FORM Hovedområde (Serviceområderelation)
+            hovedomraade:
+              id: 9e8391d5-81cc-4ac7-9027-e507be0ac494
+              name: Object -> FORM Hovedområde
+            hovedomraaderelation:
+              id: f03dd4bd-8afb-4222-850a-f576cbbd56a7
+              name: Object -> FORM Opgaveområde (Hovedområderelation)
+            opgaveomraade:
+              id: a661750e-6854-4163-bc70-8b409565c528
+              name: Object -> FORM Opgaveområde
+            opgaveomraaderelation:
+              id: f7e81c97-b975-4755-a5a9-a7a3a986a105
+              name: Object -> FORM Opgave (Opgaveområderelation)
+            opgave:
+              id: fcde29d5-650a-4724-8c65-2ab9dd0de505
+              name: Object -> FORM Opgave
+        from: 2018-01-01T00:00:00.000Z
+...

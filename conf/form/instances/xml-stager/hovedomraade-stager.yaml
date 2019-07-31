@@ -1,0 +1,9 @@
+---
+id: f4699e6f-130d-4803-943b-96ab51b14cb3
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 34daf476-b11f-4e56-8e2b-5c76dcff52f2, name: XML Stager }
+          name: FORM Hovedområde Stager
+...

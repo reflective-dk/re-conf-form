@@ -1,0 +1,8 @@
+---
+id: 31b3ef73-dfa2-43dd-b76e-d49fe74f6bd5
+registrations:
+  - validity:
+      - input:
+          class: { id: 41e0ef9b-01f3-41fd-aa39-6bcb40374704, name: Tenant }
+          name: FORM
+...

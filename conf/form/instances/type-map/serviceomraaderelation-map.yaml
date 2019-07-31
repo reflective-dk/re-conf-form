@@ -1,0 +1,9 @@
+---
+id: c5dba13a-9777-47d5-a87c-9252ed70a0d3
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: efefe41d-805b-478f-8e4d-841085cb7dfa, name: Type Map }
+          name: Object -> Hovedområde FORM (Serviceområderelation)
+...

@@ -1,0 +1,13 @@
+---
+id: 0186d343-678c-48fa-8bc6-0e7fd26f00a2
+registrations:
+  - validity:
+      - input:
+          class: { id: 568d6451-bf4d-408c-9165-87f94f700b0a, name: Import }
+          name: FORM Import 2.14.3
+          spec: { id: d1872725-0d6b-4451-8b55-97cccda67200, name: FORM Integration Spec }
+          fetcherKey: opgave
+          data: { hash: form-klassifikation-2.14.3.xml, name: FORM 2.14.3 }
+          mimeType: 'application/xml'
+          timestamp: 2019-07-31T00:00:00.000Z
+...
