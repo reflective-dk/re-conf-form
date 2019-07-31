@@ -6,7 +6,7 @@ registrations:
           model: { id: 190620dc-367f-4ba6-b5d8-bd88cf18d313, name: Model }
           class: { id: 12b4049a-fb65-4429-a9d7-c91d88a58ac9, name: Class }
           extends: { id: 00d6c45c-4d7d-4f2c-8d84-8854c06a977b, FORM Element }
-          name: Opgaveområde
+          name: FORM Opgaveområde
           collections:
             domaenebestyrelseNavnKode:
               dataType:
@@ -29,7 +29,7 @@ registrations:
           singleRelations:
             hovedomraade:
               id: c24e0063-7a38-4d44-b754-7d9c60da3418
-              name: Hovedområde
+              name: FORM Hovedområde
           manyRelations:
             kleElement:
               dataType:

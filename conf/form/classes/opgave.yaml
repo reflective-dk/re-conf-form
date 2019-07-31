@@ -6,7 +6,7 @@ registrations:
           model: { id: 190620dc-367f-4ba6-b5d8-bd88cf18d313, name: Model }
           class: { id: 12b4049a-fb65-4429-a9d7-c91d88a58ac9, name: Class }
           extends: { id: 00d6c45c-4d7d-4f2c-8d84-8854c06a977b, FORM Element }
-          name: Opgave
+          name: FORM Opgave
           collections:
             finanslovParagrafTekst:
               dataType: string
@@ -19,7 +19,7 @@ registrations:
           singleRelations:
             opgaveomraade:
               id: e63b2c99-aee6-4446-a9b1-088f0f8ba421
-              name: Opgaveområde
+              name: FORM Opgaveområde
           manyRelations:
             myndighed:
               dataType:
