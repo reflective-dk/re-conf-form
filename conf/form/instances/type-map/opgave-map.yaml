@@ -6,4 +6,6 @@ registrations:
       - input:
           class: { id: efefe41d-805b-478f-8e4d-841085cb7dfa, name: Type Map }
           name: Object -> FORM Opgave
+          sourceType: { id: c4315fa9-3765-40c0-ba45-ef821c416f83, name: Object }
+          targetType: { id: a0296ea0-22da-4dd4-be07-290292cb714d, name: Opgave }
 ...
