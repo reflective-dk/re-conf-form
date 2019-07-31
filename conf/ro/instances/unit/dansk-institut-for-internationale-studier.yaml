@@ -1,0 +1,9 @@
+---
+id: 6b75934f-20d7-49cf-836c-30926747fc8f
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Dansk Institut for Internationale Studier
+...

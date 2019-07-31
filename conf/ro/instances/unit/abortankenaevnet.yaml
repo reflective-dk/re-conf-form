@@ -1,0 +1,9 @@
+---
+id: d1b0b6b4-02cd-4cc7-b5fe-eafde350b6a6
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Abortankenævnet
+...

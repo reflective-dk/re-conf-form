@@ -1,0 +1,9 @@
+---
+id: b62851a4-f301-4541-8d2f-0de4ecde132a
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Det Økologiske Fødevareråd
+...

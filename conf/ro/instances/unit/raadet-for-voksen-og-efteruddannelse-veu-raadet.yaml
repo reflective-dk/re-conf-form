@@ -1,0 +1,9 @@
+---
+id: ba477cc1-cc1b-4abf-ab11-afd323986c9f
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Rådet for Voksen- og Efteruddannelse, VEU-rådet
+...

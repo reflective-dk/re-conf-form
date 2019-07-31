@@ -1,0 +1,9 @@
+---
+id: afca6453-494a-4159-9d2a-5418e69d3bfa
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Rådet for de Grundlæggende Erhvervsrettede Uddannelser, REU
+...

@@ -1,0 +1,9 @@
+---
+id: 04094d84-0ce8-4f33-bffd-f0a1b952a22e
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Det Kongelige Akademi for de Skønne Kunster
+...

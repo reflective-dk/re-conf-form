@@ -1,0 +1,9 @@
+---
+id: d1e59b9d-0d67-4f75-bf2e-84ff6dd9a5a8
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Havarikommissionen for Vejtrafikulykker
+...

@@ -1,0 +1,9 @@
+---
+id: 7008a367-fdc1-4a8c-a857-0d1c7061a8d4
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Rådet for Offerfonden
+...

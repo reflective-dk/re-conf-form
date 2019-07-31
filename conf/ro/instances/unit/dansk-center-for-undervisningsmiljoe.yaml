@@ -1,0 +1,9 @@
+---
+id: 7bf91b67-66d0-44a7-9855-ba8211e58c67
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Dansk Center for Undervisningsmiljø
+...

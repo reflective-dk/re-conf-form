@@ -1,0 +1,9 @@
+---
+id: 1506073b-b7f0-476b-90e7-6f518b5b97ac
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Rådet for Børns Læring
+...

@@ -1,0 +1,9 @@
+---
+id: 722ccd96-6f8d-4a36-aa8c-e5f6dab5cc3f
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Medienævnet
+...

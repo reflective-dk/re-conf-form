@@ -1,0 +1,9 @@
+---
+id: 294671c5-a7e2-475a-b9b8-3e6ce6fc6b50
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Familieretshuset
+...

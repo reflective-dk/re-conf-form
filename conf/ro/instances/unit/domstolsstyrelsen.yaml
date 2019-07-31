@@ -1,0 +1,9 @@
+---
+id: ae558b32-58a9-4f6e-9ed9-5c9cb0845e67
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Domstolsstyrelsen
+...

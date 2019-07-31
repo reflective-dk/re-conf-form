@@ -1,0 +1,9 @@
+---
+id: f6576821-bb79-4f2a-8407-e1a25c965a7c
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Børne- og Undervisningsministeriet
+...

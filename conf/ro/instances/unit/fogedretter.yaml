@@ -1,0 +1,9 @@
+---
+id: 393c68bf-b0aa-4732-9456-eb4f07321647
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Fogedretter
+...

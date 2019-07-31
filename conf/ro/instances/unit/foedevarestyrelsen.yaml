@@ -1,0 +1,9 @@
+---
+id: f53f83d8-e5eb-42e7-9b84-0d19386b40e2
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Fødevarestyrelsen
+...

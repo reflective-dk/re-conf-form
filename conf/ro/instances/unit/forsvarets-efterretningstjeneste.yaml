@@ -1,0 +1,9 @@
+---
+id: 2939e723-4c9f-4161-a716-d1be72720a7a
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Forsvarets Efterretningstjeneste
+...

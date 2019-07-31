@@ -1,0 +1,9 @@
+---
+id: b49ec75b-6157-4371-bb0e-d70f1972932f
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Det Kongelige Teater og Kapel
+...

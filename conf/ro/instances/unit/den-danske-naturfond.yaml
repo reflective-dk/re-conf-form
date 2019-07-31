@@ -1,0 +1,9 @@
+---
+id: 2fc25ec2-cf48-4688-887a-da35b169a7f4
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Den Danske Naturfond
+...

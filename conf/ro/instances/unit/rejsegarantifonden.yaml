@@ -1,0 +1,9 @@
+---
+id: 1294636f-24c2-4b86-8341-1b0c51748ce4
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Rejsegarantifonden
+...

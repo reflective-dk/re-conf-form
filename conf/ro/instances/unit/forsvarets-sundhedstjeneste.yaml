@@ -1,0 +1,9 @@
+---
+id: 07e6bb92-8b57-4998-841e-0bb78ee1fac7
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Forsvarets Sundhedstjeneste
+...

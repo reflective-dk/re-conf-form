@@ -1,0 +1,9 @@
+---
+id: a7d2ae42-c611-424e-b560-6e72e0d155e2
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Styrelsen for Patientklager
+...

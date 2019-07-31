@@ -1,0 +1,9 @@
+---
+id: 401f3d93-a8aa-4598-8221-453b6f36f267
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Trafik-, Bygge- og Boligstyrelsen
+...

@@ -1,0 +1,9 @@
+---
+id: a64b76ec-6b9e-4dc2-9964-0e650ffd9e81
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Forsvarsministeriets Personalestyrelse
+...

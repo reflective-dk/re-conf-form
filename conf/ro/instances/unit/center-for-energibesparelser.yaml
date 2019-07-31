@@ -1,0 +1,9 @@
+---
+id: 85803ea0-f473-42d3-9e89-6a801a5c6a1d
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Center for energibesparelser
+...

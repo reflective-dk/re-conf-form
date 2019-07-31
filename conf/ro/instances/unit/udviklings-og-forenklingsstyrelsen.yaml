@@ -1,0 +1,9 @@
+---
+id: e9e0cbb6-a6a2-432c-9fb1-5fc909dc01e9
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Udviklings- og Forenklingsstyrelsen
+...

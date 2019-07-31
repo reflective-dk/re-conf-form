@@ -1,0 +1,9 @@
+---
+id: ebaa4373-4af5-43b9-9641-e0cdafdb70d3
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Center for Klageløsning
+...

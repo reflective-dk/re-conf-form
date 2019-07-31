@@ -1,0 +1,9 @@
+---
+id: ce3711aa-0b94-47c5-9a13-9ca2ff4e35d7
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Pressenævnet
+...

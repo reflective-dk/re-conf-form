@@ -1,0 +1,9 @@
+---
+id: 3dd6f502-7232-46b4-a3c0-104a7c7db9ba
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Nordsøenheden
+...

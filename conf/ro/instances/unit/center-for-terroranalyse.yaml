@@ -1,0 +1,9 @@
+---
+id: 5d8c8e5e-1712-464e-88a9-663c562bace8
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Center for Terroranalyse
+...

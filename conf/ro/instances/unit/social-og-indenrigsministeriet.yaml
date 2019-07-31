@@ -1,0 +1,9 @@
+---
+id: ced5da4f-c82f-487c-86cc-6564b5e6ebcc
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Social- og Indenrigsministeriet
+...

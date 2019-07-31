@@ -1,0 +1,9 @@
+---
+id: 15251efb-6435-4243-8888-f5e2b5714345
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Sundheds- og Ældreministeriet
+...

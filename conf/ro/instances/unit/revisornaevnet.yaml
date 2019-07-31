@@ -1,0 +1,9 @@
+---
+id: a6ec254b-dd2e-4257-8784-fd73a4c1c970
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Revisornævnet
+...

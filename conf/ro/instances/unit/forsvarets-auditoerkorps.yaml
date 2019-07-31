@@ -1,0 +1,9 @@
+---
+id: 164eb520-07f1-479d-a856-036a38732c66
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Forsvarets Auditørkorps
+...

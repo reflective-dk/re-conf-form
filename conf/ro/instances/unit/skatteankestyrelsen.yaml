@@ -1,0 +1,9 @@
+---
+id: e8dcb67a-f07a-4a23-b7de-9a98c494da41
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Skatteankestyrelsen
+...

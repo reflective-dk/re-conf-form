@@ -1,0 +1,9 @@
+---
+id: 6e113fca-f072-4ba0-b3d7-6b18871082d9
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Forbrugerombudsmanden
+...

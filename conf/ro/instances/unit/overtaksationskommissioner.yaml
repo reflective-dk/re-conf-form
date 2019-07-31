@@ -1,0 +1,9 @@
+---
+id: 1c1f908d-647c-49a1-b920-aee213448779
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Overtaksationskommissioner
+...

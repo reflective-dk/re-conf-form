@@ -1,0 +1,9 @@
+---
+id: 5d0c71b4-5451-4443-95e4-a10cb5e374ab
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Arbejdsmarkedets Fond for Udstationerede (AFU)
+...

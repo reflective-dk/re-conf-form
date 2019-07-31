@@ -1,0 +1,9 @@
+---
+id: 0c543548-e2e5-4f65-ab83-f40503043be3
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Finanstilsynet
+...

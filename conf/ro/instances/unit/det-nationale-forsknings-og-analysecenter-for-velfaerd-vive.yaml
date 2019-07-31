@@ -1,0 +1,9 @@
+---
+id: a9a1157c-efc3-4d50-9920-b117d7546fc3
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Det Nationale Forsknings- og Analysecenter for Velfærd, VIVE
+...

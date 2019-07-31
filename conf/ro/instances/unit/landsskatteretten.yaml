@@ -1,0 +1,9 @@
+---
+id: 9399d127-86e4-4c04-a08c-5747c29aa60c
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Landsskatteretten
+...

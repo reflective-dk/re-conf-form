@@ -1,0 +1,9 @@
+---
+id: c5cfd51a-8b24-4c03-816e-47752d44790c
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Statens Værksteder for Kunst
+...

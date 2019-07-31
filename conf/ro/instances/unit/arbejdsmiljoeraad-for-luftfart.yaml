@@ -1,0 +1,9 @@
+---
+id: feda2ea0-fc95-4b2b-9022-385d9ef4198f
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Arbejdsmiljøråd for luftfart
+...

@@ -1,0 +1,9 @@
+---
+id: 534b3f2d-0eb0-4550-884c-8416333ea720
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Anti Doping Danmark
+...

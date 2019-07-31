@@ -1,0 +1,9 @@
+---
+id: a0cd1d84-86c0-4a41-9a59-bd909c6e518c
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Pakkerejse-Ankenævnet
+...

@@ -1,0 +1,9 @@
+---
+id: e0a56096-5967-4304-8565-444a95e4ea9d
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Rådet for El- og Gasteknisk Sikkerhed
+...

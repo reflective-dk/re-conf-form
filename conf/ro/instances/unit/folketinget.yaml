@@ -1,0 +1,9 @@
+---
+id: 0b53af20-0271-4094-9b38-0d396dd7c25c
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Folketinget
+...

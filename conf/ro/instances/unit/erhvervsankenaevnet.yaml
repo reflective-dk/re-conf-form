@@ -1,0 +1,9 @@
+---
+id: 451c0198-9fba-4afb-8bb4-cc51b7cb1566
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Erhvervsankenævnet
+...

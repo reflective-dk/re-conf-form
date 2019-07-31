@@ -1,0 +1,9 @@
+---
+id: a3fa7535-e4ba-4874-b1b2-9459cdf80a39
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Danmarks InnovationsFond
+...

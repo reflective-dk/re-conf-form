@@ -1,0 +1,9 @@
+---
+id: cbaeb4af-124c-4452-a12a-2aa0bfcbe18c
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Konkurrence- og Forbrugerstyrelsen
+...

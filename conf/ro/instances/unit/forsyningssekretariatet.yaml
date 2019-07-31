@@ -1,0 +1,9 @@
+---
+id: 94781d3d-ce14-449a-9f6c-e09f102c483b
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Forsyningssekretariatet
+...

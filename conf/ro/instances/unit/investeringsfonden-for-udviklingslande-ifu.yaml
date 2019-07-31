@@ -1,0 +1,9 @@
+---
+id: 0ca8eac2-f486-457b-8c88-f9361d971135
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Investeringsfonden for Udviklingslande, IFU
+...

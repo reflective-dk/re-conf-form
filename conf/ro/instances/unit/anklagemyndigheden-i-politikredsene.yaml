@@ -1,0 +1,9 @@
+---
+id: b44d8b15-007b-4d59-ad4f-3e3b2c988b2e
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Anklagemyndigheden i politikredsene
+...

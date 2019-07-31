@@ -1,0 +1,9 @@
+---
+id: 063d69b7-cb84-4d13-a557-d5b81f324f21
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Nævnet for Helbredsbedømmelser i Tjenestemandssager (Helbredsnævnet)
+...

@@ -1,0 +1,9 @@
+---
+id: f668f597-3594-409f-926c-783a3bf113e0
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Procesbevillingsnævnet
+...

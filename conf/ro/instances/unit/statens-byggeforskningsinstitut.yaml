@@ -1,0 +1,9 @@
+---
+id: 9fc81275-2650-4df1-b358-6c0a5ef59f1e
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Statens Byggeforskningsinstitut
+...

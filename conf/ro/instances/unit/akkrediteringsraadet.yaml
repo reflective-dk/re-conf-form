@@ -1,0 +1,9 @@
+---
+id: d6a476bb-173f-475a-9225-1179ad53d5b6
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Akkrediteringsrådet
+...

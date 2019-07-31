@@ -1,0 +1,9 @@
+---
+id: 65ce2874-808f-46b8-8b24-2194e108d31c
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Motorankenævn
+...

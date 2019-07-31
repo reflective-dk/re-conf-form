@@ -1,0 +1,9 @@
+---
+id: 9905a75b-d85a-4d3d-8ede-2151af6f72d1
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Styrelsen for Arbejdsmarked og Rekruttering
+...

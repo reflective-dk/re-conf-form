@@ -1,0 +1,9 @@
+---
+id: ff5dbc44-c853-4785-a8a6-74c3a525f5ca
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Beskæftigelsesministeriet
+...

@@ -1,0 +1,9 @@
+---
+id: 5cfb8d55-662a-4564-b360-0d6322952760
+mimeType: application/vnd.reflective-dk.object+json
+registrations:
+  - validity:
+      - input:
+          class: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
+          name: Videncenter for energibesparelser i bygninger
+...
