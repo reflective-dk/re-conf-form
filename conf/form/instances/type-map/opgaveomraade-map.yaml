@@ -7,4 +7,114 @@ registrations:
           name: Object -> FORM Opgaveområde
           sourceType: { id: c4315fa9-3765-40c0-ba45-ef821c416f83, name: Object }
           targetType: { id: e63b2c99-aee6-4446-a9b1-088f0f8ba421, name: Opgaveområde }
+          idSeed: UuidIdentifikator.0
+          condition:
+            type: mustExist
+            attribute: OpgaveOmraadeNummerIdentifikator
+          mappings:
+            name:
+              sourceAttribute:
+                - OpgaveOmraadeNummerIdentifikator.0
+                - NavnTekst.0
+              targetAttribute: name
+              transform:
+                type: join
+                separator: ' '
+            uuid:
+              sourceAttribute: UuidIdentifikator.0
+              targetAttribute: foreignIds.uuid
+            elementnr:
+              sourceAttribute: OpgaveOmraadeNummerIdentifikator.0
+              targetAttribute: elementnr
+            titel:
+              sourceAttribute: NavnTekst.0
+              targetAttribute: titel
+            beskrivelse:
+              sourceAttribute: BeskrivelseTekst.0
+              targetAttribute: beskrivelse
+            versionId:
+              sourceAttribute: VersionIdentifikator.0
+              targetAttribute: versionId
+            activeFrom:
+              sourceAttribute: OprettetDato.0
+              targetAttribute: activeFrom
+              transform: normalizeDanishDate
+            oprettetDato:
+              sourceAttribute: OprettetDato.0
+              targetAttribute: oprettetDato
+              transform: normalizeDanishDate
+            rettetDato:
+              sourceAttribute: RettetDato.0
+              targetAttribute: rettetDato
+              transform: normalizeDanishDate
+            activeTo:
+              # The FORM import process also uses an existence check, in case any
+              # elements are removed from the source data
+              sourceAttribute: UdgaaetDato.0
+              targetAttribute: activeTo
+              transform: normalizeDanishDate
+            udgaaetDato:
+              sourceAttribute: UdgaaetDato.0
+              targetAttribute: udgaaetDato
+              transform: normalizeDanishDate
+            soegeordOrden:
+              sourceAttribute: Soegeord
+              targetAttribute: 'soegeordOrden.#'
+              transform:
+                - type: forEach
+                - type: descend
+                  attribute: OrdenMaal.0
+            soegeordTekst:
+              sourceAttribute: Soegeord
+              targetAttribute: 'soegeordTekst.#'
+              transform:
+                - type: forEach
+                - type: descend
+                  attribute: SoegeordTekst.0
+            domaenebestyrelseNavnKode:
+              sourceAttribute: DomaenebestyrelseIndgang
+              targetAttribute: 'domaenebestyrelseNavnKode.#'
+              transform:
+                - type: forEach
+                - type: descend
+                  attribute: DomaenebestyrelseNavnKode.0
+            domaenebestyrelseReference:
+              sourceAttribute: DomaenebestyrelseIndgang
+              targetAttribute: 'domaenebestyrelseReference.#'
+              transform:
+                - type: forEach
+                - type: descend
+                  attribute: DomaenebestyrelseReference.0
+            finanslovParagrafTekst:
+              sourceAttribute: FinanslovIndgang
+              targetAttribute: 'finanslovParagrafTekst.#'
+              transform:
+                - type: forEach
+                - type: descend
+                  attribute: FinanslovParagrafTekst.0
+            finanslovReference:
+              sourceAttribute: FinanslovIndgang
+              targetAttribute: 'finanslovReference.#'
+              transform:
+                - type: forEach
+                - type: descend
+                  attribute: FinanslovReference.0
+            kleElementTekst:
+              sourceAttribute: KLEindgang
+              targetAttribute: 'kleElementTekst.#'
+              transform:
+                - type: forEach
+                - type: descend
+                  attribute: EmneHandlingFacetTekst.0
+            kleElement:
+              sourceAttribute: KLEindgang
+              targetAttribute: 'kleElement.#'
+              transform:
+                - type: forEach
+                - type: descend
+                  attribute: KLEReference.0
+                - type: lookup
+                  lookupAttribute: elementnr
+                  # TODO: only looks for KLE Emne, we also need Gruppe and Hovedgruppe
+                  query: { relatesTo: { class: aa6b2598-47c2-4a80-8bf0-bfa83e6afae8 } }
 ...

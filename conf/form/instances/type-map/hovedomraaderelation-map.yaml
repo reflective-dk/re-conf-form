@@ -7,4 +7,19 @@ registrations:
           name: Object -> FORM Opgaveområde (Hovedområderelation)
           sourceType: { id: c4315fa9-3765-40c0-ba45-ef821c416f83, name: Object }
           targetType: { id: e63b2c99-aee6-4446-a9b1-088f0f8ba421, name: Opgaveområde }
+          idSeed: OpgaveOmraade
+          condition:
+            type: mustExist
+            attribute: HovedOmraadeNummerIdentifikator
+          transform:
+            - type: forEach
+            - type: descend
+              attribute: UuidIdentifikator
+          mappings:
+            hovedgruppe:
+              sourceAttribute: UuidIdentifikator.0
+              targetAttribute: hovedomraade
+              transform:
+                type: relation
+                target: { id: c24e0063-7a38-4d44-b754-7d9c60da3418, name: Hovedområde }
 ...

@@ -7,4 +7,105 @@ registrations:
           name: Object -> FORM Opgave
           sourceType: { id: c4315fa9-3765-40c0-ba45-ef821c416f83, name: Object }
           targetType: { id: a0296ea0-22da-4dd4-be07-290292cb714d, name: Opgave }
+          idSeed: UuidIdentifikator.0
+          condition:
+            type: mustExist
+            attribute: OpgaveNummerIdentifikator
+          mappings:
+            name:
+              sourceAttribute:
+                - OpgaveNummerIdentifikator.0
+                - NavnTekst.0
+              targetAttribute: name
+              transform:
+                type: join
+                separator: ' '
+            uuid:
+              sourceAttribute: UuidIdentifikator.0
+              targetAttribute: foreignIds.uuid
+            elementnr:
+              sourceAttribute: OpgaveNummerIdentifikator.0
+              targetAttribute: elementnr
+            titel:
+              sourceAttribute: NavnTekst.0
+              targetAttribute: titel
+            beskrivelse:
+              sourceAttribute: BeskrivelseTekst.0
+              targetAttribute: beskrivelse
+            versionId:
+              sourceAttribute: VersionIdentifikator.0
+              targetAttribute: versionId
+            activeFrom:
+              sourceAttribute: OprettetDato.0
+              targetAttribute: activeFrom
+              transform: normalizeDanishDate
+            oprettetDato:
+              sourceAttribute: OprettetDato.0
+              targetAttribute: oprettetDato
+              transform: normalizeDanishDate
+            rettetDato:
+              sourceAttribute: RettetDato.0
+              targetAttribute: rettetDato
+              transform: normalizeDanishDate
+            activeTo:
+              # The FORM import process also uses an existence check, in case any
+              # elements are removed from the source data
+              sourceAttribute: UdgaaetDato.0
+              targetAttribute: activeTo
+              transform: normalizeDanishDate
+            udgaaetDato:
+              sourceAttribute: UdgaaetDato.0
+              targetAttribute: udgaaetDato
+              transform: normalizeDanishDate
+            soegeordOrden:
+              sourceAttribute: Soegeord
+              targetAttribute: 'soegeordOrden.#'
+              transform:
+                - type: forEach
+                - type: descend
+                  attribute: OrdenMaal.0
+            soegeordTekst:
+              sourceAttribute: Soegeord
+              targetAttribute: 'soegeordTekst.#'
+              transform:
+                - type: forEach
+                - type: descend
+                  attribute: SoegeordTekst.0
+            finanslovParagrafTekst:
+              sourceAttribute: FinanslovIndgang
+              targetAttribute: 'finanslovParagrafTekst.#'
+              transform:
+                - type: forEach
+                - type: descend
+                  attribute: FinanslovParagrafTekst.0
+            finanslovReference:
+              sourceAttribute: FinanslovIndgang
+              targetAttribute: 'finanslovReference.#'
+              transform:
+                - type: forEach
+                - type: descend
+                  attribute: FinanslovReference.0
+            lovgivningTekst:
+              sourceAttribute: LovgivningIndgang
+              targetAttribute: 'lovgivningTekst.#'
+              transform:
+                - type: forEach
+                - type: descend
+                  attribute: LovgivningTekst.0
+            lovgivningReference:
+              sourceAttribute: LovgivningIndgang
+              targetAttribute: 'lovgivningReference.#'
+              transform:
+                - type: forEach
+                - type: descend
+                  attribute: LovgivningReference.0
+            myndighed:
+              sourceAttribute: MyndighedIndgang
+              targetAttribute: 'myndighed.#'
+              transform:
+                - type: forEach
+                - type: descend
+                  attribute: MyndighedReference.0
+                - type: relation
+                  target: { id: 5cad9972-6560-4136-a9d5-40c2d109be9b, name: Unit }
 ...

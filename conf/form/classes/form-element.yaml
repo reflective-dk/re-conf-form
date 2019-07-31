@@ -10,6 +10,8 @@ registrations:
           attributes:
             elementnr:
               dataType: string
+            titel:
+              dataType: string
             beskrivelse:
               dataType: string
             versionId:

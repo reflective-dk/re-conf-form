@@ -7,4 +7,19 @@ registrations:
           name: Object -> FORM Opgave (Opgaveområderelation)
           sourceType: { id: c4315fa9-3765-40c0-ba45-ef821c416f83, name: Object }
           targetType: { id: a0296ea0-22da-4dd4-be07-290292cb714d, name: Opgave }
+          idSeed: Opgave
+          condition:
+            type: mustExist
+            attribute: OpgaveOmraadeNummerIdentifikator
+          transform:
+            - type: forEach
+            - type: descend
+              attribute: UuidIdentifikator
+          mappings:
+            hovedgruppe:
+              sourceAttribute: UuidIdentifikator.0
+              targetAttribute: opgaveomraade
+              transform:
+                type: relation
+                target: { id: e63b2c99-aee6-4446-a9b1-088f0f8ba421, name: Opgaveområde }
 ...

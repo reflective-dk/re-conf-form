@@ -7,4 +7,82 @@ registrations:
           name: Object -> FORM Hovedområde
           sourceType: { id: c4315fa9-3765-40c0-ba45-ef821c416f83, name: Object }
           targetType: { id: c24e0063-7a38-4d44-b754-7d9c60da3418, name: Hovedområde }
+          idSeed: UuidIdentifikator.0
+          condition:
+            type: mustExist
+            attribute: HovedOmraadeNummerIdentifikator
+          mappings:
+            name:
+              sourceAttribute:
+                - HovedOmraadeNummerIdentifikator.0
+                - NavnTekst.0
+              targetAttribute: name
+              transform:
+                type: join
+                separator: ' '
+            uuid:
+              sourceAttribute: UuidIdentifikator.0
+              targetAttribute: foreignIds.uuid
+            elementnr:
+              sourceAttribute: HovedOmraadeNummerIdentifikator.0
+              targetAttribute: elementnr
+            titel:
+              sourceAttribute: NavnTekst.0
+              targetAttribute: titel
+            beskrivelse:
+              sourceAttribute: BeskrivelseTekst.0
+              targetAttribute: beskrivelse
+            versionId:
+              sourceAttribute: VersionIdentifikator.0
+              targetAttribute: versionId
+            activeFrom:
+              sourceAttribute: OprettetDato.0
+              targetAttribute: activeFrom
+              transform: normalizeDanishDate
+            oprettetDato:
+              sourceAttribute: OprettetDato.0
+              targetAttribute: oprettetDato
+              transform: normalizeDanishDate
+            rettetDato:
+              sourceAttribute: RettetDato.0
+              targetAttribute: rettetDato
+              transform: normalizeDanishDate
+            activeTo:
+              # The FORM import process also uses an existence check, in case any
+              # elements are removed from the source data
+              sourceAttribute: UdgaaetDato.0
+              targetAttribute: activeTo
+              transform: normalizeDanishDate
+            udgaaetDato:
+              sourceAttribute: UdgaaetDato.0
+              targetAttribute: udgaaetDato
+              transform: normalizeDanishDate
+            soegeordOrden:
+              sourceAttribute: Soegeord
+              targetAttribute: 'soegeordOrden.#'
+              transform:
+                - type: forEach
+                - type: descend
+                  attribute: OrdenMaal.0
+            soegeordTekst:
+              sourceAttribute: Soegeord
+              targetAttribute: 'soegeordTekst.#'
+              transform:
+                - type: forEach
+                - type: descend
+                  attribute: SoegeordTekst.0
+            finanslovParagrafTekst:
+              sourceAttribute: FinanslovIndgang
+              targetAttribute: 'finanslovParagrafTekst.#'
+              transform:
+                - type: forEach
+                - type: descend
+                  attribute: FinanslovParagrafTekst.0
+            finanslovReference:
+              sourceAttribute: FinanslovIndgang
+              targetAttribute: 'finanslovReference.#'
+              transform:
+                - type: forEach
+                - type: descend
+                  attribute: FinanslovReference.0
 ...

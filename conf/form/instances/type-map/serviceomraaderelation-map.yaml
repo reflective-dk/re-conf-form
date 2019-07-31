@@ -7,4 +7,19 @@ registrations:
           name: Object -> Hovedområde FORM (Serviceområderelation)
           sourceType: { id: c4315fa9-3765-40c0-ba45-ef821c416f83, name: Object }
           targetType: { id: c24e0063-7a38-4d44-b754-7d9c60da3418, name: Hovedområde }
+          idSeed: HovedOmraade
+          condition:
+            type: mustExist
+            attribute: ServiceOmraadeNummerIdentifikator
+          transform:
+            - type: forEach
+            - type: descend
+              attribute: UuidIdentifikator
+          mappings:
+            hovedgruppe:
+              sourceAttribute: UuidIdentifikator.0
+              targetAttribute: serviceomraade
+              transform:
+                type: relation
+                target: { id: df8e1f7e-af16-4f4b-a262-fdbd22232ff7, name: Serviceområde }
 ...
